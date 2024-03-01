@@ -12,7 +12,7 @@ function App() {
     <div className='App'>
       <nav className="navbar">
         <div className="navbar-left">
-          <h1 className="madimi-one-regular">Art Neva</h1>
+          <h1 className="madimi-one-regular"><a href="/">Art Neva</a></h1>
         </div>
         <div className="navbar-right">
 
@@ -48,6 +48,17 @@ function App() {
           </div>
         </div>
       </nav>
+      <div className='afisha'>
+        <span className='playfair-display-nav'>ВСЕ МЕРОПРИЯТИЯ</span>
+        <br />
+        <span className='playfair-display-nav'>В ОДНОМ МЕСТЕ</span>
+
+        <div className='premier'>
+          <h3 className='premier-text'>Премьера</h3>
+          <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg"></img>
+        </div>
+
+      </div>
     </div>
   );
 }

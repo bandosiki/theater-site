@@ -1,6 +1,7 @@
 .App {
-  background-color: #3d3d3d;
-  height: 1000px;
+  /* background-color: #3d3d3d; */
+  background: linear-gradient(to bottom right, #3d3d3d, #6c757d);
+  height: auto;
 }
 /* fonts */
 .madimi-one-regular {
@@ -16,21 +17,27 @@
   font-weight: 300;
   font-style: normal;
 }
-/* fonts ----end */
+/* fonts -----end */
 
+
+/* navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #ffedcb;
   padding-top: 50px;
   padding-right: 400px;
-
+  margin-bottom: 100px;
 }
 
 .navbar-left h1 {
   margin: 0;
   padding-left: 400px;
+}
+
+.navbar-left a {
+  color: #ffedcb; 
+  text-decoration: none; 
 }
 
 .tab {
@@ -53,4 +60,30 @@
 
 .navbar-right {
   margin-left: 20px;
+}
+/* navbar -----end */
+
+.afisha{
+  padding-left: 400px;
+  padding-right: 400px;
+  font-size: 50px;
+  font-stretch: expanded;
+  color: #FFB830;
+}
+
+.premier{
+  width: 650px;
+  height: 500px;
+  background-color: #FCEFE5;
+  border-radius: 40px;
+}
+
+.premier-text{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #DF6618;
+  padding-left: 30px;
+  padding-top: 20px;
 }
