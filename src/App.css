@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  background-color: #3d3d3d;
+  height: 1000px;
+}
+/* fonts */
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.playfair-display-nav {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
+/* fonts ----end */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffedcb;
+  padding-top: 50px;
+  padding-right: 400px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-left h1 {
+  margin: 0;
+  padding-left: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tab {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  color: #fff4e1;
+  background-color: transparent;
+  transition: color 0.3s ease;
+}
+
+.tab:hover {
+  color: #ffb350;
+}
+
+.tab.active {
+  color: #ffb350;
+}
+
+.navbar-right {
+  margin-left: 20px;
 }
