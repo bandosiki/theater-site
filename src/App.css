@@ -108,9 +108,9 @@
 
 /* premier button -----end */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   .App {
-    width: 700px;
+    width: 400px;
     /* background-color: #3d3d3d; */
     background: linear-gradient(to bottom right, #3d3d3d, #6c757d);
     height: auto;
