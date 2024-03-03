@@ -58,7 +58,11 @@ function App() {
           <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg" className='premier-img' alt=""/>
           <h3 className='premier-desc'>Иммерсивное Арт-шоу</h3>
         </div>
+        <div className='ballet'>
+        <h3 className='premier-text'>Балет</h3>
 
+        <h3 className='premier-desc'>Вечная классика</h3>
+        </div>
       </div>
     </div>
   );
