@@ -60,8 +60,8 @@ function App() {
         </div>
         <div className='ballet'>
         <h3 className='premier-text'>Балет</h3>
+        <h3 className='ballet-desc'>Вечная классика</h3>
 
-        <h3 className='premier-desc'>Вечная классика</h3>
         </div>
       </div>
     </div>
