@@ -60,13 +60,25 @@ function App() {
             <h3 className='premier-desc'>Иммерсивное Арт-шоу</h3>
           </div>
 
-          <div className='ballet'>
-            <div className='ballet-title'>
-            <h3 className='ballet-text'>Балет</h3>
-            <h3 className='ballet-desc'>Вечная<br />классика</h3>
-          </div>
-            <div className='ballet-img'>
-              <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/ballet-logo.png' alt="Вечная классика"/>
+          <div className='ballet&standup'>
+            <div className='ballet'>
+              <div className='ballet-title'>
+                <h3 className='ballet-text'>Балет</h3>
+                <h3 className='ballet-desc'>Вечная<br />классика</h3>
+              </div>
+              <div className='ballet-img'>
+                <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/ballet-logo.png' alt="Вечная классика" />
+              </div>
+            </div>
+
+            <div className='standup'>
+              <div className='standup-img'>
+                <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/standup-logo.png' alt="Стендап" />
+              </div>
+              <div className='standup-title'>
+                <h3 className='standup-text'>Стендап</h3>
+                <h3 className='standup-desc'>Смешно<br />о важном</h3>
+              </div>
             </div>
           </div>
         </div>
