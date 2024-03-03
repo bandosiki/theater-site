@@ -56,7 +56,7 @@ function App() {
         <div className='scene-container'>
           <div className='premier'>
             <h3 className='premier-text'>Премьера</h3>
-            <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg" className='premier-img' alt="" />
+            <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg" className='premier-img' alt="Иммерсивное Арт-шоу" />
             <h3 className='premier-desc'>Иммерсивное Арт-шоу</h3>
           </div>
 
@@ -66,7 +66,7 @@ function App() {
             <h3 className='ballet-desc'>Вечная<br />классика</h3>
           </div>
             <div className='ballet-img'>
-              <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/ballet-logo.png' />
+              <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/ballet-logo.png' alt="Вечная классика"/>
             </div>
           </div>
         </div>
