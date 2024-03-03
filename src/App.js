@@ -53,15 +53,22 @@ function App() {
         <br />
         <span className='playfair-display-nav'>В ОДНОМ МЕСТЕ</span>
 
-        <div className='premier'>
-          <h3 className='premier-text'>Премьера</h3>
-          <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg" className='premier-img' alt=""/>
-          <h3 className='premier-desc'>Иммерсивное Арт-шоу</h3>
-        </div>
-        <div className='ballet'>
-        <h3 className='premier-text'>Балет</h3>
-        <h3 className='ballet-desc'>Вечная классика</h3>
+        <div className='scene-container'>
+          <div className='premier'>
+            <h3 className='premier-text'>Премьера</h3>
+            <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg" className='premier-img' alt="" />
+            <h3 className='premier-desc'>Иммерсивное Арт-шоу</h3>
+          </div>
 
+          <div className='ballet'>
+            <div className='ballet-title'>
+            <h3 className='ballet-text'>Балет</h3>
+            <h3 className='ballet-desc'>Вечная<br />классика</h3>
+          </div>
+            <div className='ballet-img'>
+              <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/ballet-logo.png' />
+            </div>
+          </div>
         </div>
       </div>
     </div>

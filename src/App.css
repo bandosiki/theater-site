@@ -4,6 +4,13 @@
   height: auto;
 }
 
+/* containers */
+.scene-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* containers -----end */
+
 /* fonts */
 .madimi-one-regular {
   font-family: "Madimi One", sans-serif;
@@ -72,7 +79,7 @@
   height: 570px;
   background-color: #FCEFE5;
   border-radius: 40px;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 
 .premier-text {
@@ -106,16 +113,33 @@
 }
 
 /* premier button -----end */
+.premier,
+.ballet {
+  width: calc(50% - 10px); 
+}
 
 /* ballet button */
 .ballet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 500px;
-  height: 285px;
+  height: 250px; 
   background-color: #FCEFE5;
   border-radius: 40px;
+  margin-top: 30px;
 }
 
-.ballet-desc{
+.ballet-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #DF6618;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+.ballet-desc {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 50;
@@ -125,6 +149,21 @@
   padding-left: 30px;
   font-size: 80%;
   margin-top: -1%;
+}
+
+.ballet-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ballet-img {
+  flex: 1;
+  text-align: center;
+}
+
+.ballet-title {
+  flex: 1;
+  padding: 20px;
 }
 /* ballet button -----end*/
 
@@ -154,12 +193,12 @@
   }
 
   .premier-text {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .premier-img {
-    border-top-right-radius: 250px;
-    border-bottom-left-radius: 250px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
     width: 80%;
     height: 100%;
     padding-left: 10%;
@@ -178,7 +217,23 @@
     border-radius: 15px;
   }
 
+  .ballet-title {
+    flex: 1;
+    padding: 20px;
+  }
+
   .ballet-desc {
     margin-top: -10%;
+
+  }
+
+  .ballet-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ballet-img {
+    flex: 1;
+    text-align: center;
   }
 }
