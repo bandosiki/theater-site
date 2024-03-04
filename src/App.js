@@ -56,7 +56,7 @@ function App() {
         <div className='scene-container'>
           <div className='premier'>
             <h3 className='premier-text'>Премьера</h3>
-            <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg" className='premier-img' alt="Иммерсивное Арт-шоу" />
+            <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/premier-photo.jpg" className='premier-img' alt="Премьера" />
             <h3 className='premier-desc'>Иммерсивное Арт-шоу</h3>
           </div>
 
@@ -67,7 +67,7 @@ function App() {
                 <h3 className='ballet-desc'>Вечная<br />классика</h3>
               </div>
               <div className='ballet-img'>
-                <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/ballet-logo.png' alt="Вечная классика" />
+                <img src='https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/ballet-logo.png' alt="Балет" />
               </div>
             </div>
 
@@ -103,12 +103,12 @@ function App() {
           <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/animal.jpg" alt="Дикарь" />
         </div>
 
-        <div className='rain-in-noikeln'>
-          <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/rain.jpg" alt="Дождь в Нойкельне" />
-          <div className='rain-in-noikeln-title'>
-            <h3 className='rain-in-noikeln-text'>Дождь в Нойкельне</h3>
-            <h5 className='rain-in-noikeln-desc'>Комедия, Премьеры</h5>
-            <h5 className='rain-in-noikeln-desc'>18+</h5>
+        <div className='stars'>
+          <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/stars.jpg" alt="Созвездия" />
+          <div className='stars-title'>
+            <h3 className='stars-text'>Созвездия</h3>
+            <h5 className='stars-desc'>Драматический<br/>18+</h5>
+            <button className='buy-ticket-button'>Купить билет</button>
           </div>
         </div>
 
