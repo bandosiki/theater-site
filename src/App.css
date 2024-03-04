@@ -173,7 +173,7 @@
   align-items: center;
   width: 500px;
   height: 225px;
-  background-color: #ffbdbd;
+  background-color: #ffc3c3;
   border-radius: 40px;
   margin-top: 30px;
 }
@@ -218,9 +218,11 @@
   display: flex;
   border-radius: 50px;
   margin-bottom: 3%;
+  overflow: hidden;
 }
 .rain-in-noikeln-title{
   margin-top: -5%;
+  text-align: right;
 }
 
 .rain-in-noikeln-text{
@@ -230,13 +232,73 @@
   color: #DF6618;
   padding-left: 30px;
   font-weight: bold;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
 }
 .rain-in-noikeln-desc{
   text-align: right;
   font-size: 20px;
+  margin-top: -5%;
 }
 .rain-in-noikeln img {
   max-width: 40%;
+}
+
+.animal{
+  width: 100%;
+  height: 300px;
+  background-color: #ffc3c3;
+  display: flex;
+  border-radius: 50px;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+.animal-text{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #DF6618;
+  padding-left: 30px;
+  font-weight: bold;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+.animal-title{
+  margin-top: -5%;
+  text-align: right;
+
+}
+.animal-desc{
+  font-size: 20px;
+  margin-top: -5%;
+}
+.animal img{
+  max-width: 40%;
+  margin-left: 45%;
+}
+
+
+.buy-ticket-button {
+  background-color: transparent;
+  color: #3d3d3d;
+  border: #3d3d3d;
+  border-style: inset;
+  border-width: 1px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  bottom: 50px; 
+  right: 10px;
+}
+
+.buy-ticket-button:hover {
+  color: #636363;
+  border: #636363;
+  border-style: inset;
+  border-width: 1px;
 }
 
 @media screen and (max-width: 768px) {
