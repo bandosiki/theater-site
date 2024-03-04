@@ -334,14 +334,12 @@
 
   .standup-desc {
     margin-left: 30%;
+    font-size: small;
   }
 
   .standup-img img {
     max-width: 80%;
     height: 100%;
-  }
-
-  .standup-desc {
-    font-size: small;
+    margin-top: -2%;
   }
 }
