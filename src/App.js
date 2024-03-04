@@ -82,6 +82,34 @@ function App() {
             </div>
           </div>
         </div>
+
+        <span className='playfair-display-nav'>НОВИНКИ ТЕАТРА</span>
+        <div className='rain-in-noikeln'>
+          <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/rain.jpg" alt="Дождь в Нойкельне" />
+          <div className='rain-in-noikeln-title'>
+            <h3 className='rain-in-noikeln-text'>Дождь в Нойкельне</h3>
+            <h5 className='rain-in-noikeln-desc'>Драматический</h5>
+            <h5 className='rain-in-noikeln-desc'>18+</h5>
+          </div>
+        </div>
+
+        <div className='rain-in-noikeln'>
+          <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/rain.jpg" alt="Дождь в Нойкельне" />
+          <div className='rain-in-noikeln-title'>
+            <h3 className='rain-in-noikeln-text'>Дождь в Нойкельне</h3>
+            <h5 className='rain-in-noikeln-desc'>Драматический</h5>
+            <h5 className='rain-in-noikeln-desc'>18+</h5>
+          </div>
+        </div>
+
+        <div className='rain-in-noikeln'>
+          <img src="https://raw.githubusercontent.com/bandosiki/bandosiki.github.io/main/%D1%82%D0%B5%D0%B0%D1%82%D1%80/rain.jpg" alt="Дождь в Нойкельне" />
+          <div className='rain-in-noikeln-title'>
+            <h3 className='rain-in-noikeln-text'>Дождь в Нойкельне</h3>
+            <h5 className='rain-in-noikeln-desc'>Драматический</h5>
+            <h5 className='rain-in-noikeln-desc'>18+</h5>
+          </div>
+        </div>
       </div>
     </div>
   );
