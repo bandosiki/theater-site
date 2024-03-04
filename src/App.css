@@ -77,7 +77,7 @@
 /* premier button */
 .premier {
   width: 75%;
-  height: 570px;
+  height: 480px;
   background-color: #FCEFE5;
   border-radius: 40px;
   margin-top: 30px;
@@ -90,6 +90,8 @@
   color: #DF6618;
   padding-left: 30px;
   font-weight: bold;
+  margin-top: -1%;
+
 }
 
 .premier-desc {
@@ -100,7 +102,7 @@
   color: #DF6618;
   text-align: right;
   padding-right: 5%;
-  font-size: 80%;
+  font-size: 60%;
   margin-top: -1%;
 }
 
@@ -109,7 +111,7 @@
   border-bottom-left-radius: 250px;
   width: 90%;
   height: 70%;
-  padding-left: 35px;
+  padding-left: 5%;
   margin-top: -50px;
 }
 
@@ -125,7 +127,7 @@
   justify-content: space-between;
   align-items: center;
   width: 500px;
-  height: 250px;
+  height: 225px;
   background-color: #e5e7fc;
   border-radius: 40px;
   margin-top: 30px;
@@ -153,9 +155,10 @@
 }
 
 .ballet-img img {
-  max-width: 100%;
+  max-width: 93.5%;
   height: 100%;
   margin-top: 13px;
+  margin-left: 15px;
 }
 
 .ballet-img {
@@ -167,6 +170,7 @@
   flex: 1;
   padding: 20px;
 }
+
 /* ballet button -----end*/
 
 /* standup button */
@@ -175,26 +179,54 @@
   justify-content: space-between;
   align-items: center;
   width: 500px;
-  height: 250px;
+  height: 225px;
   background-color: #ffbdbd;
   border-radius: 40px;
   margin-top: 30px;
 }
 
-.standup-img{
-  width: 100%;
-  height: 100px;
+.standup-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #DF6618;
+  padding-left: 30px;
+  font-weight: bold;
 }
+
+.standup-desc {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+  color: #DF6618;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 80%;
+  margin-top: -10%;
+}
+
+.standup-img img {
+  width: 100%;
+  height: 100%;
+  margin-top: 13%;
+}
+
 /* standup button -----end*/
 
+.ballet-and-standup {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
+
   .scene-container {
     display: flex;
     flex-direction: column;
   }
 
-  .premier,
-  .ballet {
+  .premier {
     width: 100%;
     margin-bottom: 10%;
   }
@@ -250,6 +282,7 @@
 
   .ballet-title {
     flex: 1;
+    margin-bottom: 5%;
   }
 
   .ballet-desc {
@@ -269,9 +302,29 @@
     text-align: center;
   }
 
-  .standup{
+  .standup {
+    margin-top: 3.1%;
     width: 100%;
     height: 100px;
     border-radius: 15px;
+  }
+
+  .standup-title {
+    flex: 1;
+    margin-right: 15%;
+    margin-bottom: 10%;
+  }
+
+  .standup-desc {
+    margin-left: 30%;
+  }
+
+  .standup-img img {
+    max-width: 81%;
+    height: 100%;
+  }
+
+  .standup-desc {
+    font-size: small;
   }
 }

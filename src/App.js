@@ -60,7 +60,7 @@ function App() {
             <h3 className='premier-desc'>Иммерсивное Арт-шоу</h3>
           </div>
 
-          <div className='ballet&standup'>
+          <div className='ballet-and-standup'>
             <div className='ballet'>
               <div className='ballet-title'>
                 <h3 className='ballet-text'>Балет</h3>
