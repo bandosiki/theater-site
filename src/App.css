@@ -219,6 +219,9 @@
   border-radius: 50px;
   margin-bottom: 3%;
 }
+.rain-in-noikeln-title{
+  margin-top: -5%;
+}
 
 .rain-in-noikeln-text{
   font-family: "Playfair Display", serif;
@@ -340,6 +343,6 @@
   .standup-img img {
     max-width: 80%;
     height: 100%;
-    margin-top: -2%;
+    margin-top: -5%;
   }
 }
