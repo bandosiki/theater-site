@@ -253,7 +253,6 @@
   background-color: #ffc3c3;
   display: flex;
   border-radius: 50px;
-  margin-bottom: 3%;
   overflow: hidden;
 }
 
@@ -292,13 +291,13 @@
   width: 100%;
   height: 300px;
   border-radius: 40px;
-  margin-top: 30px;
+  margin-top: 3%;
 }
 
 .stars-title {
   margin-top: -5%;
   text-align: right;
-  margin-right: 10%;
+  margin-right: 3%;
 }
 
 .stars-desc {
@@ -451,21 +450,39 @@
     margin-top: 0%;
   }
 
-  /* .rain-in-noikeln{
-    height: 20%;
-  }*/
+  .rain-in-noikeln {
+    height: 150px;
+    border-radius: 20px;
+  }
+
+  .rain-in-noikeln-title {
+    margin-top: -2%;
+  }
+
+  .rain-in-noikeln-text {
+    font-size: large;
+  }
+
+  .rain-in-noikeln-desc {
+    font-size: small;
+
+  }
+
   .animal {
     height: 150px;
     border-radius: 20px;
-  } 
-  .animal img{
+  }
+
+  .animal img {
     width: 100%;
     height: 100%;
   }
-  .animal-text{
-    font-size: x-large;
+
+  .animal-text {
+    font-size: large;
   }
-  .animal-desc{
+
+  .animal-desc {
     font-size: small;
   }
 
@@ -473,12 +490,15 @@
     height: 25%;
     border-radius: 20px;
   }
-  .stars-text{
-    font-size: x-large;
+
+  .stars-text {
+    font-size: large;
   }
-  .stars-desc{
+
+  .stars-desc {
     font-size: small;
   }
+
   .stars img {
     max-width: 50%;
     height: 100%;
