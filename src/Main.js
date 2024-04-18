@@ -24,7 +24,7 @@ function Main() {
 
     const showPupolarTitles = [
         "Ромео и Джульетта",
-        "Вишневый сад",
+        "Вишнёвый сад",
         "Отелло"
     ];
     const showUpcomingTitles = [

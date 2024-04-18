@@ -3,6 +3,7 @@ import Main from "./Main";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import BuyTicket from "./BuyTicket";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Footer />
         <Routes>
           <Route path="/" element={<Main />} />
-
+          <Route path="buy-ticket" element={<BuyTicket />} />
           <Route path="*" element={<h2><br /><br />ЗАвали ебало, быдло<br /><br /></h2>} />
         </Routes>
       </div>
